@@ -12,6 +12,21 @@
 
     <p>{{ outro }}</p>
 
-    <span>{{ logado }}</span>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for produto in produtos %}
+                <tr>
+                    <td><a href='{% url "produto" produto.pk %}'>{{ produto.nome }}</a></td>
+                    <td>{{ produto.preco }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>
