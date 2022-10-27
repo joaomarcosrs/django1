@@ -1,0 +1,27 @@
+body{
+    background-color: #341256;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
+table { 
+    border-collapse: collapse;
+}
+th, td { 
+    border: solid 1px; padding: 0; 
+}
+
+td:first-child { 
+    width: 200px  ;
+}
+.td_preco {
+    width: 150px;
+    text-align: center; 
+}
+.td_estoque{  
+    width: 120px;
+    text-align: center;
+}
