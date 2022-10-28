@@ -31,7 +31,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 #DEBUG com valor False == modo produção
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django1-jmrs.herokuapp.com']
 
 
 # Application definition
