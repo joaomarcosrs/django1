@@ -69,6 +69,7 @@ future==0.18.2
 gevent @ file:///C:/ci/gevent_1616773090559/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/ci/greenlet_1611958565931/work
+gunicorn==20.1.0
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
@@ -180,6 +181,7 @@ pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work
 PySocks @ file:///C:/ci/pysocks_1605287845585/work
 pytest==6.2.3
 python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+python-dotenv==0.21.0
 python-jsonrpc-server @ file:///tmp/build/80754af9/python-jsonrpc-server_1600278539111/work
 python-language-server @ file:///tmp/build/80754af9/python-language-server_1607972495879/work
 pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
@@ -249,6 +251,7 @@ watchdog @ file:///C:/ci/watchdog_1612471251191/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
+whitenoise==6.2.0
 widgetsnbextension==3.5.1
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
 win-unicode-console==0.5
